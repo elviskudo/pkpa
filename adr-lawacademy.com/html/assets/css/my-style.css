@@ -1,0 +1,127 @@
+/* General */
+input, select, textarea {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 6px !important;
+    border-style: solid !important;
+}
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+ul.tw-dropdown-menu {
+    list-style: none !important;
+    padding-left: 0px !important;
+}
+
+.cei-container-header-alert i.v-icon::before {
+    font-size: 70px;
+}
+
+.cei-show-dropdown {
+    display: block;
+    z-index: 10;
+    top: 33px;
+}
+
+.cei-title-alert {
+    font-size: 25px;
+}
+
+.cei-button-alert {
+    margin: 10px 30px 15px;
+}
+
+.cei-center-element {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cei-center-up-element {
+    margin: 0;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cei-small-shadow {
+    box-shadow: 0px 3px 17px -3px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 3px 17px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 3px 17px -3px rgba(0,0,0,0.75);
+}
+
+.cei-border-small {
+    border: 1px solid #C2C2C2;
+}
+
+/* Ribbon Development */
+.cei-corner-ribbon.orange-500 {
+    background: #e82;
+}
+.cei-corner-ribbon.top-left {
+    top: 20px;
+    left: -40px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+.cei-corner-ribbon.shadow {
+    box-shadow: 0 0 3px rgb(0 0 0 / 30%);
+}
+.cei-corner-ribbon.sticky {
+    position: fixed;
+}
+.cei-corner-ribbon {
+    width: 150px;
+    opacity: 0.7;
+    position: absolute;
+    text-align: center;
+    font-size: 11px;
+    line-height: 35px;
+    letter-spacing: 1px;
+    color: #f0f0f0;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    z-index: 99999999999999999999;
+}
+
+/* Scroll bar notification */
+/* width */
+.cei-notification::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+.cei-notification::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+.cei-notification::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 20px;
+}
+
+/* Handle on hover */
+.cei-notification::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* slick-dots */
+.slick-dots {
+    position: static !important;
+}
+
+.slick-dots li button:before {
+    font-size: 15px !important;
+    opacity: 1 !important;
+    color: #C2C2C2 !important;
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: 1 !important;
+    color: #FF9900 !important;
+}

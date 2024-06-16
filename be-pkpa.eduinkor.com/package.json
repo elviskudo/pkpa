@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "xendit-node": "^3.4.0"
+  }
+}

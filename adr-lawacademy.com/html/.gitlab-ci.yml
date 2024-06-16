@@ -1,0 +1,25 @@
+image: debian:latest
+
+
+stages:
+  - test
+  - deploy
+
+test:
+  stage: test
+  script: echo 'test'
+  only:
+    - merge_requests
+
+deploy:
+  stage: deploy
+  before_script:
+     - apt update && apt install  openssh-client -y
+     - mkdir -p ~/.ssh
+     - echo -e "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
+     - chmod 600 ~/.ssh/id_rsa
+     - echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
+  script:
+    - ssh -i ~/.ssh/id_rsa ubuntu@$IP_SERVER "bash /app/runner.sh"
+  only:
+    - master 

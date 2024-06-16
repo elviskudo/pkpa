@@ -1,0 +1,206 @@
+.vue-html2pdf .content-wrapper {
+  height: 100%;
+}
+
+/* .tw-form-input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  --bg-opacity: 1;
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, var(--bg-opacity));
+  display: block;
+  --text-opacity: 1;
+  color: #828282;
+  color: rgba(130, 130, 130, var(--text-opacity));
+  border-width: 1px;
+  --border-opacity: 1;
+  border-color: #e0e0e0;
+  border-color: rgba(224, 224, 224, var(--border-opacity));
+  border-radius: 8px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+  font-size: 14px;
+  border-style: double;
+}
+
+.tw-form-input:focus,
+.form-group:focus {
+  outline: 0;
+  --border-opacity: 1;
+  border-color: #d33737;
+  border-color: rgba(211, 55, 55, var(--border-opacity));
+} */
+
+i.v-icon.v-icon {
+  color: #FF9900 !important;
+  font-size: 20px;
+}
+
+.v-carousel__controls {
+  background-color: transparent !important;
+  position:absolute;
+  bottom: 0;
+}
+.v-window_prev, .v-window_next {
+  margin-left: 0;
+  margin-right: 0;
+}
+.v-window__prev .v-icon::before {
+  font-size: 50px;
+}
+.v-window__next .v-icon::before {
+  font-size: 50px;
+}
+button.v-carousel_controls_item {
+  margin: 0;
+}
+@media (min-width:640px) {
+  .v-window_prev, .v-window_next {
+    margin: 0 20px;
+  }
+}
+@media (min-width:768px) {
+  .v-window_prev, .v-window_next {
+    margin: 0 69px;
+  }
+}
+
+.slick-prev:before, .slick-next:before {
+  font-family: 'slick' !important;
+  font-size: 30px !important;
+  line-height: 0 !important;
+  opacity: 0.75 !important;
+  color: orange !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* html {
+  inset: 0;
+}
+
+body {
+  font-family: "Quicksand", serif !important;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+  background-color: white;
+}
+
+@media only screen
+  and (min-width: 1200px){
+  .img{
+    width: 100% !important;
+    height: auto !important;
+    margin-bottom: 10px;
+  }
+}
+
+.form-group {
+  position: relative;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.tw-form-input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  --bg-opacity: 1;
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, var(--bg-opacity));
+  display: block;
+  --text-opacity: 1;
+  color: #828282;
+  color: rgba(130, 130, 130, var(--text-opacity));
+  border-width: 1px;
+  --border-opacity: 1;
+  border-color: #e0e0e0;
+  border-color: rgba(224, 224, 224, var(--border-opacity));
+  border-radius: 8px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+  font-size: 14px;
+  border-style: double;
+}
+
+.tw-form-input:focus,
+.form-group:focus {
+  outline: 0;
+  --border-opacity: 1;
+  border-color: #d33737;
+  border-color: rgba(211, 55, 55, var(--border-opacity));
+}
+
+input:focus, textarea:focus {
+  outline: 1px dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  box-shadow: none !important;
+}
+
+
+.v-list-item--link::before { background-color: red; }
+
+
+// setting for vue slick carousel
+.myCarousel .v-window_prev, .myCarousel .v-window_next {
+  top: 0;
+}
+#textcolor {
+  color: #fff;
+}
+i {
+  font-size: 21px;
+}
+i.v-icon.v-icon {
+  color: #FF9900 !important;
+  font-size: 20px;
+}
+
+.v-carousel__controls {
+  background-color: transparent !important;
+  position:absolute;
+  bottom: 0;
+}
+.v-window_prev, .v-window_next {
+  margin-left: 0;
+  margin-right: 0;
+}
+.v-window__prev .v-icon::before {
+  font-size: 50px;
+}
+.v-window__next .v-icon::before {
+  font-size: 50px;
+}
+button.v-carousel_controls_item {
+  margin: 0;
+}
+@media (min-width:640px) {
+  .v-window_prev, .v-window_next {
+    margin: 0 20px;
+  }
+}
+@media (min-width:768px) {
+  .v-window_prev, .v-window_next {
+    margin: 0 69px;
+  }
+}
+
+.slick-prev:before, .slick-next:before {
+  font-family: 'slick' !important;
+  font-size: 30px !important;
+  line-height: 0 !important;
+  opacity: 0.75 !important;
+  color: orange-500 !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} */
